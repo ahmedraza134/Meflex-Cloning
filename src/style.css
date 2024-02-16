@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url("./fonts/Metropolis-Black.otf");
+  font-weight: 400; /* Black font weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("./fonts/Metropolis-Black.otf");
+  font-weight: 500; /* Black font weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("./fonts/Metropolis-Black.otf");
+  font-weight: 700; /* Black font weight */
+  font-style: normal;
+}
+
+body {
+  background-color: #ffffff !important;
+}
+
+.nav-logo {
+  margin-right: 0px !important;
+}
+
+.nav-items {
+  display: flex;
+  gap: 24px;
+  margin-left: 48px;
+}
+
+.nav-items li {
+  font-family: Metropolis;
+  font-weight: 500;
+  font-size: 14px;
+  color: #6a6a6a;
+  cursor: pointer;
+}
+
+.search-box-nav {
+  margin-left: 79px;
+}
+
+.search-box-nav input[type="search"] {
+  width: 426px;
+  height: 48px;
+  padding: 12px, 12px, 12px, 16px;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  font-family: Metropolis;
+  font-weight: bold;
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+.search-box-nav .search-container {
+  position: relative;
+}
+
+.search-box-nav input[type="search"] {
+  /* Your search box styles */
+  padding-right: 28px; /* Adjust the padding to accommodate the icon */
+}
+
+.search-box-nav img {
+  position: absolute;
+  top: 50%;
+  right: 8px; /* Adjust the right spacing */
+  transform: translateY(-50%);
+}
+
+.login-btn {
+  outline: none;
+  border: none;
+  margin-left: 150px;
+  border-radius: 8px;
+  padding: 12px 20px 12px 20px;
+  background-color: #040404;
+  font-family: Metropolis;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* Hero Section Styling */
+
+.hero-section {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-sec-title h1 {
+  font-family: Metropolis;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -3px;
+  color: #252525;
+  text-align: center;
+}
+
+.hero-sec-para {
+  font-family: Metropolis;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #171717;
+  margin-top: 6px;
+}
+.hero-sec-para {
+  margin-top: 6px;
+}
+
+.hero-sec-rounded-image {
+  margin-top: 8px;
+}
+.rounded-image-two {
+  position: relative;
+  right: 5%;
+  cursor: pointer;
+}
+.rounded-image-three {
+  position: relative;
+  right: 15%;
+  cursor: pointer;
+}
+
+.hero-sec-rounded-image span {
+  position: relative;
+  right: 20%;
+  font-family: "Metropolis", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 15px 5px;
+  border-radius: 60%;
+  background-color: #ffffff;
+  display: inline-block;
+  color: #151517;
+  cursor: pointer;
+}
+
+.hero-sec-btn {
+  margin-top: 58px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 24px 14px 24px;
+  background-color: #040404;
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: -0.2px;
+  cursor: pointer;
+}
+
+/* Hero-Section-Cards-Styling */
+.hero-sec-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  margin-top: 5px;
+}
+
+.card-one{
+  transform: skewX(7deg);
+}
+
+.card-title{
+  display: flex;
+  gap: 5px;
+}
+.card-title h1 {
+  margin-top: 8px;
+  font-family: Metropolis;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6a6a6a !important;
+}
+
+.card-id span {
+  font-family: Metropolis;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #252525;
+  padding-top: 6px;
+}
