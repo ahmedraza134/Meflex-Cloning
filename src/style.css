@@ -167,15 +167,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   margin-top: 5px;
 }
 
-.card-one{
-  transform: skewX(7deg);
+.card-one {
+  transform: skewX(12deg);
 }
 
-.card-title{
+.card-title {
   display: flex;
   gap: 5px;
 }
@@ -198,4 +198,296 @@ body {
   text-align: left;
   color: #252525;
   padding-top: 6px;
+}
+
+.card-three {
+  transform: skewy(7deg);
+}
+
+/* Featured Section Styling */
+
+.featured-section {
+  margin-top: 137px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-sec h1 {
+  font-family: Metropolis;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -3px;
+  color: #252525;
+  text-align: center;
+}
+
+.featured-images {
+  display: flex;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+/* Sale Section Styling */
+
+.sale-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+  background-color: #000000;
+  padding-bottom: 0px;
+}
+
+.sale-section-title h1 {
+  font-family: Metropolis;
+  font-size: 40px;
+  font-weight: 700px;
+  line-height: 70px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sale-section-para p {
+  font-family: Metropolis;
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 44px;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sale-section-date {
+  width: 672px;
+  height: 44px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.sale-section-date p {
+  font-family: Metropolis;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #252525;
+  text-align: center;
+}
+
+.sale-section-btn button {
+  margin-top: 48px;
+  outline: none;
+  border: none;
+  width: 180px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #252525;
+  margin-right: 18px;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+
+#particiopant-btn {
+  margin-top: 10px;
+}
+
+#for-investors {
+  font-family: Metropolis;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #6a6a6a;
+}
+
+/* Artist Section Styling */
+
+.artist-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.artist-section .title h1 {
+  font-family: Metropolis;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: #252525;
+  margin-left: 80px;
+}
+
+.artist-section-para p {
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6a6a6a;
+  margin-left: 80px;
+}
+
+.artist-cards {
+  display: flex;
+  justify-content: space-around;
+}
+/* .first-card{
+  border: 2px solid #6a6a6a;
+} */
+
+#kenter {
+  font-family: Metropolis;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6a6a6a;
+}
+
+#votes {
+  outline: none;
+  border: none;
+  border-radius: 16px;
+  padding: 4px 8px 4px 8px;
+  background-color: #252525;
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: right;
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: right;
+  color: #6a6a6a;
+}
+
+/* Quality Card Styling */
+.quality-section {
+  margin-top: 160px;
+}
+
+.quality-sec-title h1 {
+  font-family: Metropolis;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: #252525;
+  margin-left: 70px;
+}
+
+.quality-sec-para p {
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6a6a6a;
+  margin-left: 70px;
+}
+
+.quality-sec-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.quality-sec-card-one,
+.quality-sec-card-two,
+.quality-sec-card-three,
+.quality-sec-card-four,
+.quality-sec-card-five,
+.quality-sec-card-six,
+.quality-sec-card-seven,
+.quality-sec-card-eight,
+.quality-sec-card-nine,
+.quality-sec-card-ten,
+.quality-sec-card-eleven,
+.quality-sec-card-twelve {
+  width: 288px;
+  height: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  box-shadow: 0px 8px 20px 0px #00000005;
+  box-shadow: 0px 1px 4px 0px #0000001f;
+  padding: 20px 16px 20px 16px;
+}
+.quality-sec-cards h1 {
+  font-family: Metropolis;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+
+  color: #252525;
+}
+
+.quality-sec-cards p {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  color: #252525;
+}
+
+/* Categories section styling */
+.categories-section {
+  margin-top: 164px;
+}
+.categories-title h1 {
+  font-family: Metropolis;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: #252525;
+}
+
+.categories-para p {
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2;
+  text-align: left;
+  color: #6a6a6a;
+}
+.categories-card-container-one{
+  border: 1px solid #6a6a6a;
+  width: fit-content;
+}
+.categories-card-one {
+ 
+  padding: 5px;
 }
