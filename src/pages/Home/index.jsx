@@ -6,6 +6,11 @@ import SaleSection from "../../components/SaleSection";
 import ArtistSection from "../../components/ArtistSection";
 import QualityCards from "../../components/QualityCardsSection";
 import CategoriesSection from "../../components/CategoriesSection";
+import ContestSection from "../../components/ContestSection";
+import RankingSection from "../../components/RankingSection";
+import NFTStatsSection from "../../components/NFTStatsSection";
+import FashionCategory from "../../components/FashionCategory";
+import AIFashionContestSection from "../../components/AIFashionContestSection";
 import "../../style.css";
 
 
@@ -20,6 +25,11 @@ const Home = () => {
       <ArtistSection />
       <QualityCards />
       <CategoriesSection />
+      <ContestSection />
+      <RankingSection />
+      <NFTStatsSection />
+      <FashionCategory />
+      <AIFashionContestSection />
     </>
   );
 };

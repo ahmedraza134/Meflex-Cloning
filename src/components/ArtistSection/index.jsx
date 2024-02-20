@@ -4,6 +4,7 @@ import cardthreeimg from "../../Images/artistcardimgthree.png";
 import cardfourimg from "../../Images/artistcardimgfour.png";
 import leftarrow from "../../Images/Left arrow.png";
 import rightarrow from "../../Images/Right Arrow.png";
+import { FaArrowRight } from "react-icons/fa";
 
 const ArtistSection = () => {
   return (
@@ -11,11 +12,12 @@ const ArtistSection = () => {
       <div className="title">
         <h1>Artist</h1>
       </div>
-      <div className="artist-section-para">
+      <div className="artist-section-para d-flex justify-content-between mb-5">
         <p>
           Now, savor the recognition of your creativity and officially embrace
           the title of an artist
         </p>
+        <button id="explore-categories" >Apply for an Artist <span className="ms-3"><FaArrowRight /></span></button>
       </div>
       <div className="artist-cards ">
         <div className="first-card">

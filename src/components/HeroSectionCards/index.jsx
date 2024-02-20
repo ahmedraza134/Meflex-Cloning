@@ -14,9 +14,9 @@ const HeroSectionCards = () => {
           position: "relative",
           top: "20px",
         }}
-        className="card-one border-2-"
+        className="card-one boder border-1-dark"
       >
-        <Card.Img variant="top" src={heroseccardimgone} />
+        <Card.Img variant="top" src={heroseccardimgone}  style={{ width: "280px", textAlign: "center", }} />
         <Card.Body>
           <div className="card-title">
             <img src={heroseccardicon} alt="heroseccardicon" width={13} />
@@ -25,7 +25,7 @@ const HeroSectionCards = () => {
           <div className="card-id">
             <span>Clown#7143</span>
           </div>
-          <div className="card-price d-flex justify-content-between border-1 ">
+          <div className="card-price d-flex justify-content-between border border-1 ">
             <div className="price d-flex flex-column">
               <span>Price</span>
               <span>0.02 ETH</span>
@@ -43,7 +43,6 @@ const HeroSectionCards = () => {
           height: "422px",
           position: "relative",
           right: "60px",
-        
         }}
       >
         <Card.Img variant="top" src={heroseccardimgone} />
@@ -55,7 +54,7 @@ const HeroSectionCards = () => {
           <div className="card-id">
             <span>Clown#7143</span>
           </div>
-          <div className="card-price d-flex justify-content-between border-1 ">
+          <div className="card-price d-flex justify-content-between border border-1 ">
             <div className="price d-flex flex-column">
               <span>Price</span>
               <span>0.02 ETH</span>
@@ -86,7 +85,7 @@ const HeroSectionCards = () => {
           <div className="card-id">
             <span>Clown#7143</span>
           </div>
-          <div className="card-price d-flex justify-content-between border-1 ">
+          <div className="card-price d-flex justify-content-between border border-1 ">
             <div className="price d-flex flex-column">
               <span>Price</span>
               <span>0.02 ETH</span>

@@ -1,19 +1,19 @@
 @font-face {
   font-family: "Metropolis";
-  src: url("./fonts/Metropolis-Black.otf");
-  font-weight: 400; /* Black font weight */
+  src: url("./fonts/Metropolis-Bold.otf");
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url("./fonts/Metropolis-Black.otf");
-  font-weight: 500; /* Black font weight */
+  src: url("./fonts/Metropolis-Bold.otf");
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Metropolis";
-  src: url("./fonts/Metropolis-Black.otf");
-  font-weight: 700; /* Black font weight */
+  src: url("./fonts/Metropolis-Bold.otf");
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -173,6 +173,7 @@ body {
 
 .card-one {
   transform: skewX(12deg);
+  border: 5px solid white !important;
 }
 
 .card-title {
@@ -472,6 +473,7 @@ body {
   letter-spacing: -1.5px;
   text-align: left;
   color: #252525;
+  margin-left: 80px;
 }
 
 .categories-para p {
@@ -482,12 +484,293 @@ body {
   letter-spacing: -0.2;
   text-align: left;
   color: #6a6a6a;
+  margin-left: 80px;
 }
-.categories-card-container-one{
-  border: 1px solid #6a6a6a;
+
+#explore-categories {
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  padding: 12px 20px 12px 20px;
+  background-color: #f5f5f5;
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  margin-right: 50px;
+}
+.categories-card-main {
   width: fit-content;
 }
+.categories-card-container-one {
+  border: 2px solid #efefef;
+  border-radius: 16px;
+  width: fit-content;
+  padding-bottom: 2px;
+}
 .categories-card-one {
- 
   padding: 5px;
+}
+
+.card-categories-text {
+  width: 280px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid #e2e0e0;
+  border-radius: 10px;
+}
+
+#categories-info {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: #6a6a6a;
+}
+
+#categories-title {
+  font-family: Metropolis;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: #252525;
+}
+
+/* Contest Section Styling */
+
+.contest-section {
+  margin-top: 164px;
+  margin-left: 80px;
+}
+.contest-section .title h1 {
+  font-family: Metropolis;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: #252525;
+}
+
+.contest-section .buttons #contest-sec-first-btn {
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 16px 12px 16px;
+  box-shadow: 0px 8px 20px 0px #00000005;
+  background-color: white;
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-align: left;
+}
+
+.contest-section .buttons button:not(:first-child) {
+  outline: none;
+  border: none;
+  padding: 12px 16px 12px 16px;
+  background-color: #f5f5f5;
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-align: left;
+}
+
+/* Ranking Section Styling */
+
+.ranking-section {
+  margin-top: 56px;
+  margin-left: 80px;
+}
+
+.ranking-section .ranking-title h1 {
+  font-family: Metropolis;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #252525;
+}
+
+table {
+  width: 40%;
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+.table-heading {
+  font-family: Metropolis;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6a6a6a;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+.creators-name {
+  font-family: Metropolis;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #252525;
+  text-align: left;
+  margin-left: 16px;
+}
+
+.table-vote-btn {
+  width: 100px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  font-family: Metropolis;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #0e9766;
+  margin-left: 100px;
+}
+
+/* NFT Stats Section Styling */
+
+.nft-stats-section {
+  margin-top: 192px;
+}
+
+.nft-stats-title {
+  font-family: Metropolis;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: #252525;
+}
+
+.nft-counts {
+  margin-top: 48px;
+}
+
+.nft-count-one h1,
+.nft-count-two h1,
+.nft-count-three h1,
+.nft-count-four h1 {
+  font-family: Metropolis;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #252525;
+}
+
+.nft-count-one span,
+.nft-count-two span,
+.nft-count-three span,
+.nft-count-four span {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #6a6a6a;
+}
+
+/* Fashion category styling */
+
+.fashion-category-section {
+  background-color: #eff2ff;
+  height: 550px;
+}
+
+.fashion-category-section .first-side h1 {
+  font-family: Metropolis;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: #252525;
+}
+
+.fashion-category-section .first-side p {
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #686868;
+}
+
+.fashion-category-section .first-side button {
+  outline: none;
+  border-radius: 8px;
+  padding: 12px 20px 12px 20px;
+  background-color: #040404;
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* AI Fashion Contest Section Styling */
+
+.aifashion-contest-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 80px;
+  height: 250px;
+  background-color: #fafcf2;
+  margin-top: 220px;
+}
+
+.aifashion-contest-section h1 {
+  font-family: Metropolis;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: #040914;
+}
+
+.aifashion-contest-section button {
+  border-radius: 8px;
+  padding: 12px 20px 12px 20px;
+  background-color: #040404;
+  color: #ffffff;
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  text-align: right;
 }
