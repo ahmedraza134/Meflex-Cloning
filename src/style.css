@@ -862,6 +862,7 @@ td {
   letter-spacing: 0px;
   text-align: left;
   color: #a4a4a4;
+  margin-top: 40px;
 }
 
 .footer-right-column-heading {
@@ -878,6 +879,18 @@ td {
 .footer-right-column-three span:not(:first-child) {
   font-family: Metropolis;
   font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6a6a6a;
+}
+
+.footer-right-row-two {
+  margin-top: 40px;
+}
+
+.footer-right-row-two span {
+  font-family: Metropolis;
+  font-size: 12px;
   font-weight: 400;
   line-height: 20px;
   color: #6a6a6a;
