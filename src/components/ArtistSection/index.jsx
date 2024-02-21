@@ -1,6 +1,6 @@
 import cardoneimg from "../../Images/artistcardimgone.png";
 import cardtwoimg from "../../Images/artistcardimgtwo.png";
-import cardthreeimg from "../../Images/artistcardimgthree.png";
+// import cardthreeimg from "../../Images/artistcardimgthree.png";
 import cardfourimg from "../../Images/artistcardimgfour.png";
 import leftarrow from "../../Images/Left arrow.png";
 import rightarrow from "../../Images/Right Arrow.png";
@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const ArtistSection = () => {
   return (
-    <div className="artist-section">
+    <div className="artist-section container-xxl">
       <div className="title">
         <h1>Artist</h1>
       </div>
@@ -17,7 +17,12 @@ const ArtistSection = () => {
           Now, savor the recognition of your creativity and officially embrace
           the title of an artist
         </p>
-        <button id="explore-categories" >Apply for an Artist <span className="ms-3"><FaArrowRight /></span></button>
+        <button id="explore-categories">
+          Apply for an Artist{" "}
+          <span className="ms-3">
+            <FaArrowRight />
+          </span>
+        </button>
       </div>
       <div className="artist-cards ">
         <div className="first-card">
@@ -26,9 +31,8 @@ const ArtistSection = () => {
             alt="Left Arrow"
             style={{
               position: "absolute",
-              left: "0",
+              left: "3px",
               marginTop: "80px",
-             
             }}
           />
           <img src={cardoneimg} alt="" />
@@ -56,7 +60,7 @@ const ArtistSection = () => {
             </div>
           </div>
         </div>
-        <div className="third-card">
+        {/* <div className="third-card">
           <img src={cardthreeimg} alt="" style={{ width: "300px" }} />
           <div className="card-body d-flex justify-content-around">
             <div className="left-side mt-2">
@@ -68,17 +72,15 @@ const ArtistSection = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="fourth-card">
-        <img
+          <img
             src={rightarrow}
             alt="Left Arrow"
             style={{
               position: "absolute",
-              right: "0",
+              right: "8px",
               marginTop: "80px",
-            
-            
             }}
           />
           <img src={cardfourimg} alt="" style={{ width: "300px" }} />

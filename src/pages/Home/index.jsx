@@ -11,6 +11,7 @@ import RankingSection from "../../components/RankingSection";
 import NFTStatsSection from "../../components/NFTStatsSection";
 import FashionCategory from "../../components/FashionCategory";
 import AIFashionContestSection from "../../components/AIFashionContestSection";
+import Footer from "../../components/Footer";
 import "../../style.css";
 
 
@@ -30,6 +31,7 @@ const Home = () => {
       <NFTStatsSection />
       <FashionCategory />
       <AIFashionContestSection />
+      <Footer />
     </>
   );
 };

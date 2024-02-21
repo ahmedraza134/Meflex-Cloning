@@ -3,7 +3,7 @@ import seemoreicon from "../../Images/seemore-icon.png";
 
 const ContestSection = () => {
   return (
-    <div className="contest-section">
+    <div className="contest-section container-xl">
       <div className="title">
         <h1>Ongoing Contests</h1>
       </div>

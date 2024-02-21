@@ -11,15 +11,15 @@ import cardtenicon from "../../Images/quality-card-icon-ten.png";
 
 const QualityCards = () => {
   return (
-    <div className="quality-section">
+    <div className="quality-section container-xxl">
       <div className="quality-sec-title">
         <h1>You Design, We make them real.</h1>
       </div>
       <div className="quality-sec-para">
         <p>
           Meflex revolutionizes the world of fashion with AI-driven creativity.
-          We empower designers and enthusiasts to explore uncharted realms of
-          artificial intelligence into fashion, blending technology and style
+          We empower designers and enthusiasts to explore <br /> uncharted realms of
+          artificial intelligence  into fashion, blending technology and style
           for avant-garde expressions.
         </p>
       </div>

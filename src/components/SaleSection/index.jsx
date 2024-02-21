@@ -6,7 +6,8 @@ import saleimgfour from "../../Images/sale-sec-img-four.png";
 
 const SaleSection = () => {
   return (
-    <div className="sale-section">
+   
+    <div className="sale-section container-xxl">
       <div className="sale-section-title">
         <h1>MEFLEX</h1>
         <h1>PUBLIC SALE OPEN</h1>
@@ -31,6 +32,7 @@ const SaleSection = () => {
         <img src={saleimgfour} alt="saleimgfour" width={84} style={{ position: "relative", top: "-200px", left: "400px"}} />
       </div>
     </div>
+   
   );
 };
 

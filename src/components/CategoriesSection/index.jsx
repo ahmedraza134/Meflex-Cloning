@@ -14,7 +14,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const CategoriesSection = () => {
   return (
-    <div className="categories-section">
+    <div className="categories-section container-xxl ">
       <div className="categories-title">
         <h1>Categories</h1>
       </div>

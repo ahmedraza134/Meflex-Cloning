@@ -7,7 +7,7 @@ import heroseccardicon from "../../Images/hero-sec-card-icon.png";
 
 const FashionCategory = () => {
   return (
-    <div className="fashion-category-section d-flex justify-content-around align-items-center">
+    <div className="fashion-category-section d-flex justify-content-around align-items-center container">
       <div className="first-side">
         <h1>Discover your <br /> Fashion</h1>
         <p>Explore new trending NFTs</p>

@@ -11,7 +11,7 @@ import tableimgten from "../../Images/tableimgten.png";
 
 const RankingSection = () => {
   return (
-    <div className="ranking-section">
+    <div className="ranking-section container ">
       <div className="ranking-title">
         <h1>Ranking</h1>
       </div>
