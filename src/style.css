@@ -164,17 +164,40 @@ body {
 
 /* Hero-Section-Cards-Styling */
 .hero-sec-cards {
+  margin-top: 23px;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-top: 5px;
 }
 
-.card-one {
-  transform: skewX(12deg);
-  border: 5px solid white !important;
+.card-center,
+.card-left,
+.card-right {
+  width: 325px;
+  height: 422px;
+  border: 1px solid #e3e3e3;
+  border-radius: 16px !important;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 64px 0px #00000024;
 }
+
+ .card-left {
+  transform-origin: top right;
+  transform: rotate(-12deg); 
+  position: relative;
+  top: 20px;
+}
+
+.card-right {
+  transform-origin: top left;
+  transform: rotate(12deg); 
+  position: relative;
+  top: 20px;
+} 
+
+
+
+
 
 .card-title {
   display: flex;
@@ -186,23 +209,47 @@ body {
   font-size: 12px;
   font-weight: 400;
   line-height: 12px;
-  letter-spacing: 0px;
   text-align: left;
-  color: #6a6a6a !important;
+  color: #6a6a6a;
 }
 
 .card-id span {
   font-family: Metropolis;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 500px;
   line-height: 24px;
   text-align: left;
   color: #252525;
   padding-top: 6px;
 }
 
-.card-three {
-  transform: skewy(7deg);
+.hero-section-card-price {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e3e3e3;
+  margin-top: 12px;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.hero-section-card-price-title {
+  font-family: Metropolis;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #686868;
+}
+
+.hero-section-card-price-rate {
+  font-family: Metropolis;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #252525;
 }
 
 /* Featured Section Styling */

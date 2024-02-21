@@ -1,98 +1,109 @@
 import Card from "react-bootstrap/Card";
 import heroseccardicon from "../../Images/hero-sec-card-icon.png";
-import heroseccardimgone from "../../Images/hero-sec-card-one.png";
-// import heroseccardimgtwo from "../../Images/hero-sec-card-two.png";
-// import heroseccardimgthree from "../../Images/hero-sec-card-three.png";
+import heroseccardimgcenter from "../../Images/hero-sec-card-one.png";
+ import heroseccardimgleft from "../../Images/hero-sec-card-two.png";
+ import heroseccardimgright from "../../Images/hero-sec-card-three.png";
 
 const HeroSectionCards = () => {
   return (
-    <div className="hero-sec-cards mt-5">
-      <Card
-        style={{
-          width: "325px",
-          height: "422px",
-          position: "relative",
-          top: "20px",
-        }}
-        className="card-one boder border-1-dark"
-      >
-        <Card.Img variant="top" src={heroseccardimgone}  style={{ width: "280px", textAlign: "center", }} />
+    <div className="hero-sec-cards">
+      <Card className="card-left">
+        <Card.Img
+          className="hero-sec-card-img"
+          variant="top"
+          src={heroseccardimgcenter}
+          style={{
+            width: "300px",
+            display: "flex",
+            marginLeft: "10px",
+            marginRight: "10px",
+            marginTop: "10px",
+            borderRadius: "12px",
+          }}
+        />
         <Card.Body>
           <div className="card-title">
-            <img src={heroseccardicon} alt="heroseccardicon" width={13} />
-            <h1 className="card-title">Winter Madagascar</h1>
+            <img src={heroseccardicon} alt="heroseccardicon" />
+            <h1>Winter Madagascar</h1>
           </div>
           <div className="card-id">
             <span>Clown#7143</span>
           </div>
-          <div className="card-price d-flex justify-content-between border border-1 ">
+          <div className="hero-section-card-price">
             <div className="price d-flex flex-column">
-              <span>Price</span>
-              <span>0.02 ETH</span>
+              <span className="hero-section-card-price-title">Price</span>
+              <span className="hero-section-card-price-rate">0.02 ETH</span>
             </div>
             <div className="highest-bid d-flex flex-column">
-              <span>Highest Bid</span>
-              <span>0.02 ETH</span>
+              <span className="hero-section-card-price-title">Highest Bid</span>
+              <span className="hero-section-card-price-rate">0.02 ETH</span>
             </div>
           </div>
         </Card.Body>
       </Card>
-      <Card
-        style={{
-          width: "325px",
-          height: "422px",
-          position: "relative",
-          right: "60px",
-        }}
-      >
-        <Card.Img variant="top" src={heroseccardimgone} />
+      <Card className="card-center">
+        <Card.Img
+          className="hero-sec-card-img"
+          variant="top"
+          src={heroseccardimgcenter}
+          style={{
+            width: "300px",
+            marginLeft: "10px",
+            marginRight: "10px",
+            marginTop: "10px",
+            borderRadius: "12px",
+          }}
+        />
         <Card.Body>
           <div className="card-title">
-            <img src={heroseccardicon} alt="heroseccardicon" width={13} />
-            <h1 className="card-title">Winter Madagascar</h1>
+            <img src={heroseccardicon} alt="heroseccardicon" />
+            <h1>Winter Madagascar</h1>
           </div>
           <div className="card-id">
             <span>Clown#7143</span>
           </div>
-          <div className="card-price d-flex justify-content-between border border-1 ">
+          <div className="hero-section-card-price">
             <div className="price d-flex flex-column">
-              <span>Price</span>
-              <span>0.02 ETH</span>
+              <span className="hero-section-card-price-title">Price</span>
+              <span className="hero-section-card-price-rate">0.02 ETH</span>
             </div>
             <div className="highest-bid d-flex flex-column">
-              <span>Highest Bid</span>
-              <span>0.02 ETH</span>
+              <span className="hero-section-card-price-title">Highest Bid</span>
+              <span className="hero-section-card-price-rate">0.02 ETH</span>
             </div>
           </div>
         </Card.Body>
       </Card>
-      <Card
-        style={{
-          width: "325px",
-          height: "422px",
-          position: "relative",
-          right: "80px",
-          top: "30px",
-        }}
-        className="card-three border-2-"
-      >
-        <Card.Img variant="top" src={heroseccardimgone} />
+      <Card className="card-right">
+        <Card.Img
+          className="hero-sec-card-img"
+          variant="top"
+          src={heroseccardimgcenter}
+          style={{
+            width: "300px",
+            display: "flex",
+            marginLeft: "10px",
+            marginRight: "10px",
+            marginTop: "10px",
+            borderRadius: "12px",
+          }}
+        />
         <Card.Body>
           <div className="card-title">
-            <img src={heroseccardicon} alt="heroseccardicon" width={13} />
-            <h1 className="card-title">Winter Madagascar</h1>
+            <img src={heroseccardicon} alt="heroseccardicon" />
+            <h1>Winter Madagascar</h1>
           </div>
           <div className="card-id">
             <span>Clown#7143</span>
           </div>
-          <div className="card-price d-flex justify-content-between border border-1 ">
+          <div className="hero-section-card-price">
             <div className="price d-flex flex-column">
-              <span>Price</span>
-              <span>0.02 ETH</span>
+              <span className="hero-section-card-price-title">Price</span>
+              <span className="hero-section-card-price-rate">0.02 ETH</span>
             </div>
             <div className="highest-bid d-flex flex-column">
-              <span>Highest Bid</span>
-              <span>0.02 ETH</span>
+              <span className="hero-section-card-price-title">Highest Bid</span>
+              <span className="hero-section-card-price-rate">0.02 ETH</span>
             </div>
           </div>
         </Card.Body>
