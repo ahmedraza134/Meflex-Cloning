@@ -12,14 +12,6 @@ const HeroSectionCards = () => {
           className="hero-sec-card-img"
           variant="top"
           src={heroseccardimgcenter}
-          style={{
-            width: "300px",
-            display: "flex",
-            marginLeft: "10px",
-            marginRight: "10px",
-            marginTop: "10px",
-            borderRadius: "12px",
-          }}
         />
         <Card.Body>
           <div className="card-title">
@@ -46,13 +38,6 @@ const HeroSectionCards = () => {
           className="hero-sec-card-img"
           variant="top"
           src={heroseccardimgcenter}
-          style={{
-            width: "300px",
-            marginLeft: "10px",
-            marginRight: "10px",
-            marginTop: "10px",
-            borderRadius: "12px",
-          }}
         />
         <Card.Body>
           <div className="card-title">
@@ -79,14 +64,6 @@ const HeroSectionCards = () => {
           className="hero-sec-card-img"
           variant="top"
           src={heroseccardimgcenter}
-          style={{
-            width: "300px",
-            display: "flex",
-            marginLeft: "10px",
-            marginRight: "10px",
-            marginTop: "10px",
-            borderRadius: "12px",
-          }}
         />
         <Card.Body>
           <div className="card-title">

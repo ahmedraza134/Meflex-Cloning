@@ -25,7 +25,7 @@ const SaleSection = () => {
         <button id="participate-btn">Participate Now</button>
         <button>Login <br /> <span id="for-investors">for investors</span></button>
       </div>
-      <div className="sale-sec-images">
+      <div className="sale-sec-images d-none d-lg-block">
         <img src={saleimgone} alt="saleimgone" width={52} style={{ position: "relative", top: "-250px", left: "-400px"}} />
         <img src={saleimgtwo} alt="saleimgtwo" width={132} height={132} style={{ position: "relative", top: "-400px", left: "500px"}}/>
         <img src={saleimgthree} alt="saleimgthree" width={64} style={{ position: "relative", top: "-350px", left: "500px"}} />

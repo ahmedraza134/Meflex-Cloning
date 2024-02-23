@@ -77,7 +77,7 @@ const RankingSection = () => {
           </tr>
         </tbody>
       </table>
-      <table>
+      <table className="d-none d-lg-block">
         <thead>
           <tr>
             <th className="table-heading">#</th>

@@ -3,7 +3,7 @@ import nftstatssectionimage from "../../Images/nftstatssectionimage.png";
 
 const NFTStatsSection = () => {
   return (
-    <div className="nft-stats-section d-flex justify-content-around container-xxl ">
+    <div className="nft-stats-section d-flex justify-content-around container-xxl flex-wrap">
       <div className="nft-stats-left">
         <h1 className="nft-stats-title">NFT marketplace for Fashion Enthusiast</h1>
      

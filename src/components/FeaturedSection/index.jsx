@@ -10,7 +10,7 @@ const FeaturedSection = () => {
     return (
         <div className="featured-section">
             <h1>Featured On</h1>
-            <div className="featured-images">
+            <div className="featured-images" >
                 <img src={featuredimgone} alt="" />
                 <img src={featuredimgtwo} alt="" />
                 <img src={featuredimgthree} alt="" />
