@@ -7,8 +7,10 @@ import footeryoutubelink from "../../Images/footer-youtube-link.png";
 
 const Footer = () => {
   return (
-    <div className="footer-container d-flex justify-content-around">
-      <div className="footer-left-side d-flex flex-column gap-3">
+    <>
+    <div className="footer-row-one">
+    <div className="footer-container-row-one container-xxl">
+      <div className="footer-left-side">
         <img src={footerlogo} alt="footerlogo" className="align-self-start" />
         <span>Join Meflex Community</span>
         <div className="footer-links d-flex gap-3">
@@ -28,38 +30,42 @@ const Footer = () => {
             <img src={footeryoutubelink} alt="youtube link" />
           </div>
         </div>
-        <p >
-          © Copyright 2023 verona, Inc. All rights reserved.
-        </p>
       </div>
-      <div className="footer-right-side ">
-        <div className="footer-columns d-flex gap-5 ">
-        <div className="footer-right-column-one d-flex flex-column gap-3">
-          <span className="footer-right-column-heading">Marketplace</span>
-          <span>Explore</span>
-          <span>Contest</span>
-          <span>Help</span>
-        </div>
-        <div className="footer-right-column-two d-flex flex-column gap-3">
-          <span className="footer-right-column-heading">Links</span>
-          <span>API</span>
-          <span>Token</span>
-          <span>Branding</span>
-        </div>
-        <div className="footer-right-column-three d-flex flex-column gap-3">
-          <span className="footer-right-column-heading">Socials</span>
-          <span>Facebook</span>
-          <span>Discord</span>
-          <span>Instagram</span>
-        </div>
-        </div>
-        <div className="footer-right-row-two d-flex gap-3">
-          <span>Terms of Service</span>
-          <span>Privacy Policy</span>
-          <span>Cookies</span>
+      <div className="footer-right-side">
+        <div className="footer-columns">
+          <div className="footer-right-column-one">
+            <span className="footer-right-column-heading">Marketplace</span>
+            <span>Explore</span>
+            <span>Contest</span>
+            <span>Help</span>
+          </div>
+          <div className="footer-right-column-two">
+            <span className="footer-right-column-heading">Links</span>
+            <span>API</span>
+            <span>Token</span>
+            <span>Branding</span>
+          </div>
+          <div className="footer-right-column-three">
+            <span className="footer-right-column-heading">Socials</span>
+            <span>Facebook</span>
+            <span>Discord</span>
+            <span>Instagram</span>
+          </div>
         </div>
       </div>
     </div>
+    </div>
+   <div className="footer-row-two">
+      <div className="row-two-left-side">
+        <span>© Copyright 2023 verona, Inc. All rights reserved.</span>
+      </div>
+      <div className="row-two-right-side">
+        <span>Terms of Service</span>
+        <span>Privacy Policy</span>
+        <span>Cookies</span>
+      </div>
+   </div>
+   </>
   );
 };
 

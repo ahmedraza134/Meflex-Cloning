@@ -1,3 +1,12 @@
+/* importing Font */
+
+@font-face {
+  font-family: "Metropolis";
+  src: url("./fonts/Metropolis-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
 @font-face {
   font-family: "Metropolis";
   src: url("./fonts/Metropolis-Bold.otf");
@@ -21,6 +30,7 @@ body {
   background-color: #ffffff !important;
 }
 
+/* Navbar Styling */
 .nav-logo {
   margin-right: 0px !important;
 }
@@ -74,7 +84,8 @@ body {
 .login-btn {
   outline: none;
   border: none;
-  margin-left: 150px;
+  margin-left: 112px;
+  /* margin-right: 80px; */
   border-radius: 8px;
   padding: 12px 20px 12px 20px;
   background-color: #040404;
@@ -84,6 +95,115 @@ body {
   color: #ffffff;
 }
 
+/* Media Query Navbar */
+
+@media only screen and (max-width: 767px) {
+  .container-navbar {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .nav-items {
+    margin-left: 2px;
+    margin-top: 20px !important;
+  }
+
+  .nav-items li {
+    font-size: 16px;
+  }
+}
+
+/* Hero Section Styling */
+
+.hero-section {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-sec-title h1 {
+  font-family: Metropolis;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -3px;
+  color: #252525;
+  text-align: center;
+}
+
+.hero-sec-para p {
+  font-family: Metropolis;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #171717;
+  margin-top: 6px;
+}
+.hero-sec-para {
+  margin-top: 6px;
+}
+
+.hero-sec-rounded-image {
+  margin-top: 8px;
+}
+.rounded-image-two {
+  position: relative;
+  right: 5%;
+  cursor: pointer;
+}
+.rounded-image-three {
+  position: relative;
+  right: 15%;
+  cursor: pointer;
+}
+
+.hero-sec-rounded-image span {
+  position: relative;
+  right: 20%;
+  font-family: "Metropolis", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 15px 5px;
+  border-radius: 60%;
+  background-color: #ffffff;
+  display: inline-block;
+  color: #151517;
+  cursor: pointer;
+}
+
+.hero-sec-btn {
+  margin-top: 58px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 24px 14px 24px;
+  background-color: #040404;
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: -0.2px;
+  cursor: pointer;
+}
+
+/* Hero Section Media Query */
+
+@media only screen and (max-width: 767px) {
+  .hero-sec-title h1 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .hero-sec-para p {
+    font-size: 14px;
+  }
+}
+
+/* Hero-Section-Cards-Styling */
 /* Hero Section Styling */
 
 .hero-section {
@@ -246,6 +366,29 @@ body {
   letter-spacing: -0.2px;
   text-align: left;
   color: #252525;
+}
+
+/* Hero-Section-Cards-Media-Query */
+
+@media only screen and (max-width: 767px) {
+  .hero-sec-card-img {
+    width: 300px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 10px !important;
+    border-radius: 12px !important;
+  }
+
+  .card-center,
+  .card-left,
+  .card-right {
+    width: 325px;
+    height: 422px;
+    border: 1px solid #e3e3e3;
+    border-radius: 16px !important;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 64px 0px #00000024;
+  }
 }
 
 /* Featured Section Styling */
@@ -828,16 +971,29 @@ td {
 
 /* Footer */
 
-.footer-container {
+.footer-container-row-one {
   margin-top: 60px;
+  display: flex;
+  justify-content: center;
 }
 
+.footer-left-side {
+  display: flex;
+  flex-direction: column;
+}
 .footer-left-side span {
   font-family: Metropolis;
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
   color: #040914;
+  margin-top: 16px;
+}
+
+.footer-links {
+  display: flex;
+  margin-top: 8px;
+  gap: 13px;
 }
 
 .google-link,
@@ -852,9 +1008,10 @@ td {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
-.footer-left-side p {
+/* .footer-left-side p {
   font-family: Metropolis;
   font-size: 12px;
   font-weight: 400;
@@ -863,8 +1020,32 @@ td {
   text-align: left;
   color: #a4a4a4;
   margin-top: 40px;
+} */
+
+.footer-columns {
+  display: flex;
+  margin-left: 251px;
 }
 
+.footer-right-column-one {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-right-column-two {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 92px;
+}
+
+.footer-right-column-three {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 148px;
+}
 .footer-right-column-heading {
   font-family: Metropolis;
   font-size: 16px;
@@ -890,8 +1071,38 @@ td {
 
 .footer-right-row-two span {
   font-family: Metropolis;
-  font-size: 12px;
   font-weight: 400;
   line-height: 20px;
   color: #6a6a6a;
+}
+
+.footer-row-two {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.footer-row-two .row-two-left-side span {
+  font-family: Metropolis;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #a4a4a4;
+}
+
+.footer-row-two .row-two-right-side {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-row-two .row-two-right-side span {
+  font-family: Metropolis;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #a4a4a4;
 }

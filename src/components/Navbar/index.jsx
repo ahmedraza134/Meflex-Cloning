@@ -8,20 +8,21 @@ import navsearchboxicon from "../../Images/navsearchboxicon.png";
 
 const Navigationbar = () => {
   return (
-    <Navbar expand="lg">
-      <Container>
+    <Navbar expand="md">
+      <Container className="container-navbar">
         <Navbar.Brand href="#home" className="nav-logo">
           <img src={MeflexLogo} alt="Meflex Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="nav-items">
+        <Navbar.Collapse id="basic-navbar-nav"  className="custom-navbar-collapse" >
+          <Nav className="nav-items w-100">
             <li>Explore</li>
             <li>Create</li>
             <li>Meflex TV</li>
             <li>Artist</li>
+            <li className="d-md-none d-lg-none">Log In</li>
           </Nav>
-          <Form className="d-flex search-box-nav">
+          <Form className="d-flex search-box-nav d-none d-md-flex">
             <div className="search-container">
               <FormControl
                 type="search"
@@ -36,9 +37,8 @@ const Navigationbar = () => {
               />
             </div>
           </Form>
-          <button className="login-btn">Login</button>
+          <button className="login-btn d-none d-md-flex">Login</button>
         </Navbar.Collapse>
-      
       </Container>
     </Navbar>
   );

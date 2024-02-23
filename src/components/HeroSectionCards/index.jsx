@@ -1,8 +1,8 @@
 import Card from "react-bootstrap/Card";
 import heroseccardicon from "../../Images/hero-sec-card-icon.png";
 import heroseccardimgcenter from "../../Images/hero-sec-card-one.png";
- import heroseccardimgleft from "../../Images/hero-sec-card-two.png";
- import heroseccardimgright from "../../Images/hero-sec-card-three.png";
+import heroseccardimgleft from "../../Images/hero-sec-card-two.png";
+import heroseccardimgright from "../../Images/hero-sec-card-three.png";
 
 const HeroSectionCards = () => {
   return (

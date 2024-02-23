@@ -14,7 +14,6 @@ import AIFashionContestSection from "../../components/AIFashionContestSection";
 import Footer from "../../components/Footer";
 import "../../style.css";
 
-
 const Home = () => {
   return (
     <>
@@ -31,7 +30,7 @@ const Home = () => {
       <NFTStatsSection />
       <FashionCategory />
       <AIFashionContestSection />
-      <Footer />
+      <Footer />  
     </>
   );
 };
