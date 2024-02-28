@@ -1,47 +1,55 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import Form from "react-bootstrap/Form";
-import FormControl from "react-bootstrap/FormControl";
-import MeflexLogo from "../../Images/Meflex Logo.png";
+import meflexlogo from "../../Images/Meflex Logo.png";
 import navsearchboxicon from "../../Images/navsearchboxicon.png";
-
-const Navigationbar = () => {
+const Navbar = () => {
   return (
-    <Navbar expand="md">
-      <Container className="container-navbar">
-        <Navbar.Brand href="#home" className="nav-logo">
-          <img src={MeflexLogo} alt="Meflex Logo" />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav"  className="custom-navbar-collapse" >
-          <Nav className="nav-items w-100">
-            <li>Explore</li>
-            <li>Create</li>
-            <li>Meflex TV</li>
-            <li>Artist</li>
-            <li className="d-md-none d-lg-none">Log In</li>
-          </Nav>
-          <Form className="d-flex search-box-nav d-none d-md-flex">
-            <div className="search-container">
-              <FormControl
-                type="search"
-                placeholder="Type for collections, NFTs etc"
-                aria-label="Search"
-              />
-              <img
-                src={navsearchboxicon}
-                alt="search box icon"
-                width={14}
-                height={14}
-              />
-            </div>
-          </Form>
-          <button className="login-btn d-none d-md-flex">Login</button>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <nav className="navbar navbar-expand-md  ">
+    <div className="nav-container d-flex align-items-center w-100 ">
+      <div className="navbar-logo d-flex" >
+       <img src={meflexlogo} alt="" />
+       <i className="bi bi-search  d-md-none d-sm-block ms-4" style={{ fontSize: "20px"}}></i>
+      </div>
+     
+      <span style={{ color: "#e3e3e3", marginLeft: "24px" }}className="d-none d-xl-block" >|</span>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon" />
+      </button>
+      
+      <div className="collapse navbar-collapse me-0 flex-grow-0 " id="navbarNavAltMarkup">
+        <div className="navbar-nav">
+          <a className="nav-link " aria-current="page" href="#">
+            Explore
+          </a>
+          <a className="nav-link" href="#">
+           Create
+          </a>
+          <a className="nav-link" href="#">
+           Meflex TV
+          </a>
+          <a className="nav-link " href="#">
+           Artist
+          </a>
+        </div>
+      </div>
+      <div className="nav-search d-none d-md-block">
+      <input type="text" placeholder="Type for collections, NFTs etc"/>
+      <img src={navsearchboxicon} alt="bag icon" />
+      </div>
+      <div className="nav-btn d-none d-md-flex ms-xl-auto   ">
+      <button>Log In</button>
+      </div>
+      
+    </div>
+  </nav>
+  
   );
 };
 
-export default Navigationbar;
+export default Navbar;

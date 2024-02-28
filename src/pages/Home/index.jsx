@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
       <Navigationbar />
-      <HeroSection />
+      {/* <HeroSection />
       <HeroSectionCards />
       <FeaturedSection />
       <SaleSection />
@@ -30,7 +30,7 @@ const Home = () => {
       <NFTStatsSection />
       <FashionCategory />
       <AIFashionContestSection />
-      <Footer />  
+      <Footer />   */}
     </>
   );
 };
